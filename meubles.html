@@ -1,0 +1,592 @@
+<!DOCTYPE html>
+<html lang="fr">
+
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Meubles sur mesure — TONA & FILS | Abomey-Calavi</title>
+    <meta name="description"
+      content="Meubles sur mesure fabriqués en atelier à Abomey-Calavi : salon, chambre, cuisine, bureau, extérieur. Devis rapide sur WhatsApp.">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+      href="https://fonts.googleapis.com/css2?family=Fraunces:ital,opsz,wght@0,9..144,300;0,9..144,400;0,9..144,500;0,9..144,600;0,9..144,700;1,9..144,400;1,9..144,500&family=Work+Sans:wght@400;500;600;700;800&family=Space+Mono:wght@400;700&display=swap"
+      rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+  </head>
+
+  <body>
+    <svg width="0" height="0" style="position:absolute">
+      <defs>
+        <pattern id="j-espresso-cream" width="68" height="26" patternUnits="userSpaceOnUse">
+          <rect width="68" height="26" fill="#160F0A" />
+          <polygon points="0,0 34,0 30,13 4,13" fill="#FBF4E7" />
+          <polygon points="34,13 68,13 64,26 38,26" fill="#FBF4E7" />
+        </pattern>
+        <pattern id="j-cream-walnut" width="68" height="26" patternUnits="userSpaceOnUse">
+          <rect width="68" height="26" fill="#FBF4E7" />
+          <polygon points="0,0 34,0 30,13 4,13" fill="#AD5A2B" />
+          <polygon points="34,13 68,13 64,26 38,26" fill="#AD5A2B" />
+        </pattern>
+        <pattern id="j-walnut-cream" width="68" height="26" patternUnits="userSpaceOnUse">
+          <rect width="68" height="26" fill="#AD5A2B" />
+          <polygon points="0,0 34,0 30,13 4,13" fill="#FBF4E7" />
+          <polygon points="34,13 68,13 64,26 38,26" fill="#FBF4E7" />
+        </pattern>
+        <pattern id="j-cream-slate" width="68" height="26" patternUnits="userSpaceOnUse">
+          <rect width="68" height="26" fill="#FBF4E7" />
+          <polygon points="0,0 34,0 30,13 4,13" fill="#22303C" />
+          <polygon points="34,13 68,13 64,26 38,26" fill="#22303C" />
+        </pattern>
+        <pattern id="j-slate-espresso" width="68" height="26" patternUnits="userSpaceOnUse">
+          <rect width="68" height="26" fill="#22303C" />
+          <polygon points="0,0 34,0 30,13 4,13" fill="#160F0A" />
+          <polygon points="34,13 68,13 64,26 38,26" fill="#160F0A" />
+        </pattern>
+        <pattern id="j-espresso-cream2" width="68" height="26" patternUnits="userSpaceOnUse">
+          <rect width="68" height="26" fill="#160F0A" />
+          <polygon points="0,0 34,0 30,13 4,13" fill="#FBF4E7" />
+          <polygon points="34,13 68,13 64,26 38,26" fill="#FBF4E7" />
+        </pattern>
+        <pattern id="j-cream-espresso" width="68" height="26" patternUnits="userSpaceOnUse">
+          <rect width="68" height="26" fill="#FBF4E7" />
+          <polygon points="0,0 34,0 30,13 4,13" fill="#160F0A" />
+          <polygon points="34,13 68,13 64,26 38,26" fill="#160F0A" />
+        </pattern>
+        <pattern id="j-slate-cream" width="68" height="26" patternUnits="userSpaceOnUse">
+          <rect width="68" height="26" fill="#22303C" />
+          <polygon points="0,0 34,0 30,13 4,13" fill="#FBF4E7" />
+          <polygon points="34,13 68,13 64,26 38,26" fill="#FBF4E7" />
+        </pattern>
+      </defs>
+      <defs>
+        <!-- Icônes du catalogue (référencées via <use>) -->
+        <g id="icon-sofa">
+          <path d="M8 26v-8a4 4 0 0 1 4-4h24a4 4 0 0 1 4 4v8" />
+          <path d="M6 26h36v6a2 2 0 0 1-2 2h-2a2 2 0 0 1-2-2v-2H12v2a2 2 0 0 1-2 2H8a2 2 0 0 1-2-2z" />
+          <path d="M8 18v-4a2 2 0 0 1 2-2h2M40 18v-4a2 2 0 0 1-2-2h-2" />
+        </g>
+        <g id="icon-bed">
+          <path d="M6 40V22a2 2 0 0 1 2-2h32a2 2 0 0 1 2 2v18" />
+          <path d="M6 32h36" />
+          <path d="M10 22v-4a2 2 0 0 1 2-2h8a2 2 0 0 1 2 2v4M28 22v-4a2 2 0 0 1 2-2h8a2 2 0 0 1 2 2v4" />
+        </g>
+        <g id="icon-wardrobe">
+          <rect x="8" y="6" width="32" height="36" rx="1" />
+          <line x1="24" y1="6" x2="24" y2="42" />
+          <circle cx="20" cy="24" r="1.4" />
+          <circle cx="28" cy="24" r="1.4" />
+        </g>
+        <g id="icon-table">
+          <path d="M6 14h36" />
+          <path d="M10 14v22M38 14v22" />
+          <path d="M6 30h36" />
+        </g>
+        <g id="icon-shelf">
+          <rect x="8" y="6" width="32" height="36" rx="1" />
+          <line x1="8" y1="18" x2="40" y2="18" />
+          <line x1="8" y1="30" x2="40" y2="30" />
+        </g>
+        <g id="icon-chair">
+          <path d="M14 8v18M34 8v10" />
+          <path d="M12 26h24l-3 16H15z" />
+          <path d="M14 26v-4a4 4 0 0 1 4-4h12a4 4 0 0 1 4 4v4" />
+        </g>
+        <g id="icon-mattress">
+          <rect x="6" y="14" width="36" height="20" rx="3" />
+          <path d="M6 22h36M12 14v6M20 14v6M28 14v6M36 14v6" />
+        </g>
+        <g id="icon-car">
+          <path d="M6 28l3-10a4 4 0 0 1 4-3h18a4 4 0 0 1 4 3l3 10" />
+          <rect x="4" y="28" width="40" height="8" rx="2" />
+          <circle cx="13" cy="36" r="3" />
+          <circle cx="35" cy="36" r="3" />
+        </g>
+        <g id="icon-suv">
+          <path d="M5 27l2-9a4 4 0 0 1 4-3h22a4 4 0 0 1 4 3l2 9" />
+          <rect x="3" y="27" width="42" height="9" rx="2" />
+          <circle cx="13" cy="37" r="3" />
+          <circle cx="35" cy="37" r="3" />
+        </g>
+        <g id="icon-van">
+          <path d="M4 30V18a2 2 0 0 1 2-2h24l10 8v6" />
+          <rect x="4" y="30" width="36" height="6" rx="1" />
+          <circle cx="13" cy="36" r="3" />
+          <circle cx="33" cy="36" r="3" />
+          <line x1="26" y1="16" x2="26" y2="30" />
+        </g>
+        <g id="icon-truck">
+          <rect x="4" y="14" width="20" height="16" rx="1" />
+          <path d="M24 20h9l7 6v4h-16z" />
+          <circle cx="12" cy="34" r="3" />
+          <circle cx="33" cy="34" r="3" />
+        </g>
+        <g id="icon-wheel">
+          <circle cx="24" cy="24" r="16" />
+          <circle cx="24" cy="24" r="4" />
+          <path d="M24 8v6M24 34v6M8 24h6M34 24h6M12.7 12.7l4.2 4.2M31 31l4.2 4.2M35.3 12.7l-4.2 4.2M17 31l-4.2 4.2" />
+        </g>
+        <g id="icon-ribbon">
+          <circle cx="24" cy="16" r="10" />
+          <path d="M18 24l-4 18 10-6 10 6-4-18" />
+        </g>
+        <g id="icon-plane">
+          <path d="M24 4v40M6 16l36 8M10 32l28-8" />
+        </g>
+        <g id="icon-fb">
+          <path d="M27 44V26h6l1-7h-7v-4c0-2 1-4 4-4h4V4h-6c-6 0-9 4-9 9v6h-6v7h6v18z" />
+        </g>
+        <g id="icon-ig">
+          <rect x="6" y="6" width="36" height="36" rx="9" />
+          <circle cx="24" cy="24" r="9" />
+          <circle cx="34" cy="14" r="1.6" />
+        </g>
+        <g id="icon-tiktok">
+          <path d="M28 4v26a7 7 0 1 1-6-7" />
+          <path d="M28 4c1 6 5 10 11 11" />
+        </g>
+        <g id="icon-mail">
+          <rect x="6" y="10" width="36" height="28" rx="3" />
+          <path d="M6 13l18 14L42 13" />
+        </g>
+        <g id="icon-clock">
+          <circle cx="24" cy="24" r="16" />
+          <line x1="24" y1="24" x2="24" y2="14" />
+          <line x1="24" y1="24" x2="31" y2="28" />
+        </g>
+      </defs>
+    </svg>
+    <input type="checkbox" id="menu-toggle">
+    <header>
+      <div class="wrap nav">
+        <a href="index.html" class="brand">
+          <span class="brand-mark">TF</span>
+          <span class="brand-name">TONA <span>&amp;</span> FILS</span>
+        </a>
+        <nav class="links">
+          <a href="index.html">Accueil</a>
+          <a href="meubles.html" class="active">Meubles</a>
+          <a href="matelas.html">Matelas</a>
+          <a href="location.html">Location de voitures</a>
+          <a href="a-propos.html">À propos</a>
+          <a href="contact.html">Contact</a>
+        </nav>
+        <div class="nav-actions">
+          <a href="tel:+2290141527806" class="btn btn-outline">Appeler</a>
+          <label for="menu-toggle" class="burger"><span></span></label>
+        </div>
+      </div>
+    </header>
+    <main id="top">
+
+      <section class="page-hero bg-photo tint-espresso"
+        style="background-image:url('https://images.unsplash.com/photo-1628744876497-eb30460be9f6?auto=format&fit=crop&w=1200&q=70');">
+        <div class="wrap inner">
+          <div class="breadcrumb"><a href="index.html">Accueil</a> / Meubles</div>
+          <p class="eyebrow">01 — Ameublement</p>
+          <h1>Des meubles de tout genre, taillés à vos dimensions.</h1>
+          <p>Salon, chambre, cuisine, bureau ou extérieur : notre atelier fabrique chaque pièce à la commande, en bois
+            local et finitions soignées. Vous choisissez les dimensions, le style et le tissu — nous assemblons.</p>
+          <div class="hero-cta">
+            <a class="btn btn-brass" href="https://wa.me/2290162701180" target="_blank" rel="noopener">Demander un devis
+              meuble</a>
+          </div>
+        </div>
+      </section>
+      <svg class="joint" preserveAspectRatio="none" viewBox="0 0 68 26">
+        <rect width="100%" height="100%" fill="url(#j-espresso-cream)" />
+      </svg>
+
+      <section class="trade-section trade-band bg-photo tint-walnut"
+        style="background-image:url('https://images.unsplash.com/photo-1586893133130-a763a570686e?auto=format&fit=crop&w=1200&q=70');">
+        <div class="wrap" style="color:var(--cream);">
+          <div class="trade-list" style="grid-template-columns:repeat(3,1fr);">
+            <div class="trade-card" style="border-color:rgba(196,149,73,.4);background:rgba(250,246,238,.08);">
+              <div class="t">Salon</div>
+              <div class="d" style="color:var(--cream-2);">Canapés, fauteuils, tables basses, meubles TV.</div>
+            </div>
+            <div class="trade-card" style="border-color:rgba(196,149,73,.4);background:rgba(250,246,238,.08);">
+              <div class="t">Chambre</div>
+              <div class="d" style="color:var(--cream-2);">Lits, armoires, commodes, têtes de lit capitonnées.</div>
+            </div>
+            <div class="trade-card" style="border-color:rgba(196,149,73,.4);background:rgba(250,246,238,.08);">
+              <div class="t">Cuisine &amp; rangement</div>
+              <div class="d" style="color:var(--cream-2);">Buffets, étagères, placards sur mesure.</div>
+            </div>
+            <div class="trade-card" style="border-color:rgba(196,149,73,.4);background:rgba(250,246,238,.08);">
+              <div class="t">Bureau</div>
+              <div class="d" style="color:var(--cream-2);">Bureaux, chaises, rangements pour particuliers et PME.</div>
+            </div>
+            <div class="trade-card" style="border-color:rgba(196,149,73,.4);background:rgba(250,246,238,.08);">
+              <div class="t">Extérieur</div>
+              <div class="d" style="color:var(--cream-2);">Mobilier en bois traité, banquettes de terrasse.</div>
+            </div>
+            <div class="trade-card" style="border-color:rgba(196,149,73,.4);background:rgba(250,246,238,.08);">
+              <div class="t">Sur mesure intégral</div>
+              <div class="d" style="color:var(--cream-2);">Toute pièce fabriquée selon votre plan et vos dimensions.
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <!-- ================= CATALOGUE MEUBLES ================= -->
+      <section class="catalogue">
+        <div class="wrap">
+          <p class="eyebrow" style="color:var(--walnut-2)">Catalogue meubles</p>
+          <h2>Un aperçu de notre gamme.</h2>
+          <p class="cat-lede">Chaque article est disponible sur devis, adapté à vos dimensions, votre style et votre
+            budget. Contactez-nous pour photos et prix détaillés.</p>
+          <div class="cat-grid">
+
+            <!-- 1. Canapé 2 places -->
+            <div class="cat-card">
+              <div class="photo-slot">
+                <div class="ps-inner" style="cursor: zoom-in;" onclick="openLightbox(this)">
+                  <img src="Canapé4.jpeg" alt="Canapé 2 places" loading="lazy">
+                </div>
+              </div>
+              <div class="cc-body">
+                <svg class="icon">
+                  <use href="#icon-sofa" xlink:href="#icon-sofa" />
+                </svg>
+                <div class="name">Canapé 2 places</div>
+                <div class="spec">Bois massif, assise mousse haute densité, tissu ou simili au choix.</div>
+                <span class="tag">Sur devis</span>
+              </div>
+            </div>
+
+            <!-- 2. Canapé d’angle -->
+            <div class="cat-card">
+              <div class="photo-slot">
+                <div class="ps-inner" style="cursor: zoom-in;" onclick="openLightbox(this)">
+                  <img src="Canapé5-1.jpeg" alt="Canapé d'angle" loading="lazy">
+                </div>
+              </div>
+              <div class="cc-body">
+                <svg class="icon">
+                  <use href="#icon-sofa" xlink:href="#icon-sofa" />
+                </svg>
+                <div class="name">Canapé d'angle</div>
+                <div class="spec">Configuration modulable selon l'espace disponible.</div>
+                <span class="tag">Sur devis</span>
+              </div>
+            </div>
+
+            <!-- 3. Fauteuil assorti -->
+            <div class="cat-card">
+              <div class="photo-slot">
+                <div class="ps-inner" style="cursor: zoom-in;" onclick="openLightbox(this)">
+                  <img src="Canapé1-1.jpeg" alt="Fauteuil assorti" loading="lazy">
+                </div>
+              </div>
+              <div class="cc-body">
+                <svg class="icon">
+                  <use href="#icon-sofa" xlink:href="#icon-sofa" />
+                </svg>
+                <div class="name">Fauteuil assorti</div>
+                <div class="spec">Fabriqué pour compléter votre salon sur mesure.</div>
+                <span class="tag">Sur devis</span>
+              </div>
+            </div>
+
+            <!-- 4. Table basse -->
+            <div class="cat-card">
+              <div class="photo-slot">
+                <div class="ps-inner" style="cursor: zoom-in;" onclick="openLightbox(this)">
+                  <img src="Table_centrale.jpeg" alt="Table basse" loading="lazy">
+                </div>
+              </div>
+              <div class="cc-body">
+                <svg class="icon">
+                  <use href="#icon-table" xlink:href="#icon-table" />
+                </svg>
+                <div class="name">Table basse</div>
+                <div class="spec">Bois ou plateau verre, dimensions sur demande.</div>
+                <span class="tag">Sur devis</span>
+              </div>
+            </div>
+
+            <!-- 5. Ensemble à Manger -->
+            <div class="cat-card">
+              <div class="photo-slot">
+                <div class="ps-inner" style="cursor: zoom-in;" onclick="openLightbox(this)">
+                  <img src="Table_Mangé.jpeg" alt="Lit double" loading="lazy">
+                </div>
+              </div>
+              <div class="cc-body">
+                <svg class="icon">
+                  <use href="#icon-bed" xlink:href="#icon-bed" />
+                </svg>
+                <div class="name">Table + 6 Chaises</div>
+                <div class="spec">Cadre confortable.</div>
+                <span class="tag">Sur devis</span>
+              </div>
+            </div>
+
+            <!-- 6. Armoire 2 portes -->
+            <div class="cat-card">
+              <div class="photo-slot">
+                <div class="ps-inner" style="cursor: zoom-in;" onclick="openLightbox(this)">
+                  <img src="Armoire.jpeg" alt="Armoire 3 portes" loading="lazy">
+                </div>
+              </div>
+              <div class="cc-body">
+                <svg class="icon">
+                  <use href="#icon-wardrobe" xlink:href="#icon-wardrobe" />
+                </svg>
+                <div class="name">Armoire 2 portes</div>
+                <div class="spec">Rangement optimisé, miroir en option.</div>
+                <span class="tag">Sur devis</span>
+              </div>
+            </div>
+
+            <!-- 7. Ensemble à Manger -->
+            <div class="cat-card">
+              <div class="photo-slot">
+                <div class="ps-inner" style="cursor: zoom-in;" onclick="openLightbox(this)">
+                  <img src="Table_Mangé1.jpeg" alt="Commode" loading="lazy">
+                </div>
+              </div>
+              <div class="cc-body">
+                <svg class="icon">
+                  <use href="#icon-wardrobe" xlink:href="#icon-wardrobe" />
+                </svg>
+                <div class="name">Table + 4 Chaises</div>
+                <div class="spec">Cadre confortable.</div>
+                <span class="tag">Sur devis</span>
+              </div>
+            </div>
+
+            <!-- 8. Table centrale en Bois -->
+            <div class="cat-card">
+              <div class="photo-slot">
+                <div class="ps-inner" style="cursor: zoom-in;" onclick="openLightbox(this)">
+                  <img src="Table_centrale1.jpeg" alt="Buffet de cuisine" loading="lazy">
+                </div>
+              </div>
+              <div class="cc-body">
+                <svg class="icon">
+                  <use href="#icon-wardrobe" xlink:href="#icon-wardrobe" />
+                </svg>
+                <div class="name">Table centrale</div>
+                <div class="spec">Bois, dimensions sur demande.</div>
+                <span class="tag">Sur devis</span>
+              </div>
+            </div>
+
+            <!-- 9.Canapé -->
+            <div class="cat-card">
+              <div class="photo-slot">
+                <div class="ps-inner" style="cursor: zoom-in;" onclick="openLightbox(this)">
+                  <img src="Canapé8.jpeg" alt="Canapé 2 places" loading="lazy">
+                </div>
+              </div>
+              <div class="cc-body">
+                <svg class="icon">
+                  <use href="#icon-table" xlink:href="#icon-table" />
+                </svg>
+                <div class="name">Canapé 2 places</div>
+                <div class="spec">Pour le confort au salon.</div>
+                <span class="tag">Sur devis</span>
+              </div>
+            </div>
+
+            <!-- 10. Étagère murale -->
+            <div class="cat-card">
+              <div class="photo-slot">
+                <div class="ps-inner" style="cursor: zoom-in;" onclick="openLightbox(this)">
+                  <img src="Meubles.jpeg" alt="Étagère murale" loading="lazy">
+                </div>
+              </div>
+              <div class="cc-body">
+                <svg class="icon">
+                  <use href="#icon-shelf" xlink:href="#icon-shelf" />
+                </svg>
+                <div class="name">Étagère murale</div>
+                <div class="spec">Modulable, fixation murale sécurisée.</div>
+                <span class="tag">Sur devis</span>
+              </div>
+            </div>
+
+            <!-- 11. Canapé 2 places -->
+            <div class="cat-card">
+              <div class="photo-slot">
+                <div class="ps-inner" style="cursor: zoom-in;" onclick="openLightbox(this)">
+                  <img src="Canapé5.jpeg" alt="Canapé 2 places" loading="lazy">
+                </div>
+              </div>
+              <div class="cc-body">
+                <svg class="icon">
+                  <use href="#icon-sofa" xlink:href="#icon-sofa" />
+                </svg>
+                <div class="name">Canapé 2 places</div>
+                <div class="spec">Bois massif, assise mousse haute densité, tissu ou simili au choix.</div>
+                <span class="tag">Sur devis</span>
+              </div>
+            </div>
+
+            <!-- 12. Canapé 2 places -->
+            <div class="cat-card">
+              <div class="photo-slot">
+                <div class="ps-inner" style="cursor: zoom-in;" onclick="openLightbox(this)">
+                  <img src="Canapé2.jpeg" alt="Canapé 2 places" loading="lazy">
+                </div>
+              </div>
+              <div class="cc-body">
+                <svg class="icon">
+                  <use href="#icon-sofa" xlink:href="#icon-sofa" />
+                </svg>
+                <div class="name">Canapé 2 places</div>
+                <div class="spec">Bois massif, assise mousse haute densité, tissu ou simili au choix.</div>
+                <span class="tag">Sur devis</span>
+              </div>
+            </div>
+
+          </div>
+
+          <dialog id="lightbox" onclick="this.close()">
+            <img id="lightbox-img" src="" alt="Zoom">
+            <span class="close-txt">Cliquez n'importe où pour fermer</span>
+          </dialog>
+
+          <div class="cat-panel-foot" style="margin-top:30px;"><a class="btn btn-brass"
+              href="https://wa.me/2290162701180" target="_blank" rel="noopener">Demander un devis meuble</a></div>
+        </div>
+        </div>
+
+
+      </section>
+      <svg class="joint" preserveAspectRatio="none" viewBox="0 0 68 26">
+        <rect width="100%" height="100%" fill="url(#j-cream-espresso)" />
+      </svg>
+
+      <!-- ================= GALERIE ATELIER ================= -->
+      <section class="gallery-section on-dark-section bg-photo tint-espresso"
+        style="background-image:url('https://images.unsplash.com/photo-1779031242515-205111711b23?auto=format&fit=crop&w=1200&q=70');">
+        <div class="wrap">
+          <div class="g-top">
+            <p class="eyebrow">Notre atelier</p>
+            <h2>Le savoir-faire derrière chaque meuble.</h2>
+            <p class="g-lede">Une sélection de réalisations et de vues d'atelier.</p>
+          </div>
+          <div class="gallery-grid g-wide">
+
+            <!-- 1. Vue d’atelier — découpe bois -->
+            <div class="photo-slot">
+              <div class="ps-inner" style="cursor: zoom-in;" onclick="openLightbox(this)">
+                <img src="Canapé.jpeg" alt="Vue d’atelier — découpe bois" loading="lazy">
+              </div>
+            </div>
+
+            <!-- 2. Réalisation salon complet -->
+            <div class="photo-slot">
+              <div class="ps-inner" style="cursor: zoom-in;" onclick="openLightbox(this)">
+                <img src="Canapé7.jpeg" alt="Réalisation salon complet" loading="lazy">
+              </div>
+            </div>
+
+            <!-- 3. Détail finition bois -->
+            <div class="photo-slot">
+              <div class="ps-inner" style="cursor: zoom-in;" onclick="openLightbox(this)">
+                <img src="Canapé1.jpeg" alt="Détail finition bois" loading="lazy">
+              </div>
+            </div>
+
+            <!-- 4. Réalisation chambre complète -->
+            <div class="photo-slot">
+              <div class="ps-inner" style="cursor: zoom-in;" onclick="openLightbox(this)">
+                <img src="Canapé3.jpeg" alt="Réalisation chambre complète" loading="lazy">
+              </div>
+            </div>
+
+          </div>
+
+          <dialog id="lightbox" onclick="this.close()">
+            <img id="lightbox-img" src="" alt="Zoom">
+            <span class="close-txt">Cliquez n'importe où pour fermer</span>
+          </dialog>
+
+        </div>
+      </section>
+      <svg class="joint" preserveAspectRatio="none" viewBox="0 0 68 26">
+        <rect width="100%" height="100%" fill="url(#j-espresso-cream2)" />
+      </svg>
+
+      <section class="cta-banner bg-photo tint-espresso"
+        style="background-image:url('https://images.unsplash.com/photo-1628744876497-eb30460be9f6?auto=format&fit=crop&w=1200&q=70');">
+        <div class="wrap">
+          <p class="eyebrow">Un meuble en tête ?</p>
+          <h2>Envoyez-nous vos dimensions, recevez un devis rapide.</h2>
+          <div class="cta-row">
+            <a class="btn btn-brass" href="https://wa.me/2290162701180" target="_blank" rel="noopener">Écrire sur
+              WhatsApp</a>
+            <a class="btn btn-outline" href="contact.html">Nous contacter</a>
+          </div>
+        </div>
+      </section>
+
+    </main>
+    <footer>
+      <div class="wrap">
+        <div class="foot-grid">
+          <div class="foot-brand">
+            <span class="brand-name">TONA <span style="color:var(--brass)">&amp;</span> FILS</span>
+            <p>SARL — République du Bénin. Meubles sur mesure, matelas et location de voitures, non loin du rond-point
+              TONKAN, Abomey-Calavi.</p>
+          </div>
+          <div class="foot-col">
+            <b>Nos métiers</b>
+            <a href="meubles.html">Meubles sur mesure</a>
+            <a href="matelas.html">Matelas</a>
+            <a href="location.html">Location de voitures</a>
+          </div>
+          <div class="foot-col">
+            <b>Contact</b>
+            <a href="https://wa.me/2290162701180" target="_blank" rel="noopener">WhatsApp : +229 01 62 70 11 80</a>
+            <a href="tel:+2290141527806">Appels : +229 01 41 52 78 06</a>
+            <a href="mailto:contact@tonafils.bj">contact@tonafils.bj</a>
+            <a href="https://maps.google.com/maps?q=Rond-point+Tonkan,+Abomey-Calavi,+Benin" target="_blank"
+              rel="noopener">Rond-point TONKAN, Abomey-Calavi</a>
+          </div>
+          <div class="foot-col">
+            <b>Horaires</b>
+            <a href="contact.html" style="pointer-events:none;">Lun—Ven : 8h—19h</a>
+            <a href="contact.html" style="pointer-events:none;">Samedi : 8h—17h</a>
+            <a href="contact.html" style="pointer-events:none;">Dimanche : Fermé</a>
+            <div class="social-row" style="margin-top:12px">
+              <a href="https://facebook.com/tonaetfils" target="_blank" rel="noopener" aria-label="Facebook"><svg
+                  class="icon" style="stroke:none">
+                  <use href="#icon-fb" xlink:href="#icon-fb" />
+                </svg></a>
+              <a href="https://instagram.com/tonaetfils" target="_blank" rel="noopener" aria-label="Instagram"><svg
+                  class="icon">
+                  <use href="#icon-ig" xlink:href="#icon-ig" />
+                </svg></a>
+              <a href="https://tiktok.com/@tonaetfils" target="_blank" rel="noopener" aria-label="TikTok"><svg
+                  class="icon">
+                  <use href="#icon-tiktok" xlink:href="#icon-tiktok" />
+                </svg></a>
+            </div>
+          </div>
+        </div>
+        <div class="foot-bottom">
+          <span>© 2026 TONA &amp; FILS. Tous droits réservés.</span>
+          <span>Fabriqué avec soin à Abomey-Calavi, Bénin.</span>
+        </div>
+      </div>
+    </footer>
+
+    <a class="wa-float" href="https://wa.me/2290162701180" target="_blank" rel="noopener"
+      aria-label="Écrire à TONA &amp; FILS sur WhatsApp">
+      💬 WhatsApp
+    </a>
+  </body>
+  <script> function openLightbox(element) {
+      const imgSrc = element.querySelector('img').src;
+      document.getElementById('lightbox-img').src = imgSrc;
+      document.getElementById('lightbox').showModal();
+    }
+  </script>
+
+</html>
